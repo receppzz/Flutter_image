@@ -25,7 +25,8 @@ class _WidgetDetailState extends State<WidgetDetail> {
       ),
       body: Center(
         child: Image(
-          image: AssetImage("assets/images/image-1.jpg"),
+          image: AssetImage(
+              "assets/images/image-1.jpg"), //assets libin içine eklenmez
         ),
       ),
       floatingActionButton: FloatingActionButton(
