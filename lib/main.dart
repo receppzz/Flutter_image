@@ -23,11 +23,10 @@ class _WidgetDetailState extends State<WidgetDetail> {
         backgroundColor: Colors.deepOrange,
         leading: const Text("Menu"),
       ),
-      body: Center(
-        child: Image(
-          image: AssetImage(
-              "assets/images/image-1.jpg"), //assets libin içine eklenmez
-        ),
+      body: Container(
+        padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
+        color: Colors.green,
+        child: const Text("Ornek"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
