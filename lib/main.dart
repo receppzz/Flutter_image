@@ -26,7 +26,7 @@ class _WidgetDetailState extends State<WidgetDetail> {
       body: Container(
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
         color: Colors.green,
-        child: const Text("Ornek"),
+        child: const Text("Ornekk"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
