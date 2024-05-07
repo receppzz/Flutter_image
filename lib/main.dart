@@ -23,10 +23,21 @@ class _WidgetDetailState extends State<WidgetDetail> {
         backgroundColor: Colors.deepOrange,
         leading: const Text("Menu"),
       ),
-      body: Container(
-        padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
-        color: Colors.green,
-        child: const Text("Ornekk"),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const Text("Ornek"),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text("Tıkla"),
+          ),
+          Container(
+            padding: EdgeInsets.all(30),
+            color: Colors.green,
+            child: Text("Container"),
+          )
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
